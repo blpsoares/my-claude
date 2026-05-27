@@ -1,0 +1,27 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "blpsoares-my-claude",
+  "description": "Plugin pack pessoal — Bryan Soares",
+  "owner": {
+    "name": "Bryan Soares",
+    "url": "https://github.com/blpsoares"
+  },
+  "plugins": [
+    {
+      "name": "pdd",
+      "description": "PDD (Parity-Driven Development) — skill pack para auditar paridade entre sistema novo e sistema de referência em migrações e rewrites. Provê /audit-bootstrap, /audit-new, /audit-investigate, /audit-resolve, /audit-status e /audit-qa.",
+      "author": {
+        "name": "Bryan Soares"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/blpsoares/my-claude.git",
+        "path": "plugins/pdd",
+        "ref": "main",
+        "sha": "28029b2190c119fa40d1601d3f4051b6c60f6507"
+      },
+      "homepage": "https://github.com/blpsoares/my-claude/tree/main/plugins/pdd"
+    }
+  ]
+}
